@@ -1,6 +1,6 @@
 # AI Tips & Tricks for Climate Science — Workshop Bundle
 
-**LEAP Climate Data Science Bootcamp · Summer 2026 - Ayon Roy**
+**LEAP Climate Data Science Bootcamp · Summer 2026**
 *Presented by Ayon Roy*
 
 This bundle contains everything you need for the four hands-on exercises in the workshop.
