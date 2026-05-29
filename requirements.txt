@@ -1,0 +1,36 @@
+# LeAp Columbia — AI Tips & Tricks for Climate Science
+# Workshop dependencies for Exercises B and D
+# Pin to known-good versions so the same prompt produces the same output
+
+# Core scientific Python
+numpy>=1.26,<3.0
+pandas>=2.1,<3.0
+scipy>=1.11,<2.0
+
+# Geospatial / climate data
+xarray>=2024.1
+netCDF4>=1.6
+h5netcdf>=1.3
+cftime>=1.6
+dask[array]>=2024.1
+pooch>=1.8
+
+# Plotting
+matplotlib>=3.8,<4.0
+cartopy>=0.22
+
+# Regridding (Exercise D)
+# xesmf wheels can be finicky on Windows — Colab/Linux work out of the box.
+# If pip install fails, try:  conda install -c conda-forge xesmf
+xesmf>=0.8
+
+# CMIP6 cloud catalog (Exercise D)
+intake>=2.0
+intake-esm>=2024.1
+zarr>=2.17
+gcsfs>=2024.1
+
+# Jupyter
+jupyterlab>=4.0
+ipykernel>=6.29
+ipywidgets>=8.0
